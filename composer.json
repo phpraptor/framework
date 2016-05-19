@@ -1,0 +1,19 @@
+{
+    "name": "phpraptor/framework",
+    "description": "A PHP framework.",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Mujtaba Aziz",
+            "email": "mushti@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
