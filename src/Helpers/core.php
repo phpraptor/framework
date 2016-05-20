@@ -1,5 +1,7 @@
 <?php
 
-public function load($file) {
-	return require __DIR__;
+if (!function_exists('load')) {
+    function load($file) {
+        return require __DIR__;
+    }
 }
