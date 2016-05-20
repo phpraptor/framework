@@ -18,7 +18,9 @@
         "phpunit/phpunit": "^5.3"
     },
     "autoload": {
-        
+        "psr-4": {
+            "Raptor\\": "./src"
+        }
     },
     "minimum-stability": "dev"
 }
