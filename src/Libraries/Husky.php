@@ -1,11 +1,11 @@
 <?php
-namespace Raptor\Core\Libraries;
+namespace Raptor\Libraries;
 
 class Husky
 {
-	protected config;
+	protected $config;
 
-	function __construct(argument)
+	function __construct()
 	{
 		echo 'Husky library';
 	}
