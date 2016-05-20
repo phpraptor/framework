@@ -1,19 +1,24 @@
 {
     "name": "phpraptor/framework",
     "description": "A PHP framework.",
-    "type": "library",
-    "require": {
-        "php": ">=5.5.9"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.3"
-    },
+    "keywords": ["framework", "phpraptor"],
     "license": "MIT",
+    "homepage": "http://phpraptor.com",
     "authors": [
         {
             "name": "Muhammad Mujtaba Aziz",
             "email": "mushti@outlook.com"
         }
     ],
-    "minimum-stability": "stable"
+    "require": {
+        "php": ">=5.5.9",
+        "swiftmailer/swiftmailer": "~5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "autoload": {
+        
+    },
+    "minimum-stability": "dev"
 }
